@@ -1,3 +1,4 @@
+//Molly Campbell & Dominic Dalessandro are partners
 class Sugar extends Cookie {
  String shape; 
  boolean isDecorated; 

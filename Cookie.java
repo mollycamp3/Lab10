@@ -1,3 +1,4 @@
+//Molly Campbell & Dominic Dalessandro are partners
 class Cookie{
   private int number,bakeTime,bakeTemp;
   private boolean isReady;
