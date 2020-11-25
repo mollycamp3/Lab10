@@ -9,8 +9,8 @@ class Cookie{
     isReady = false;
   }
 
-  Cookie (int aNum, int aBakeTemp) {
-    number = aNum; 
+  Cookie (int aNumber, int aBakeTemp) {
+    number = aNumber; 
     bakeTemp = aBakeTemp;
     bakeTime = aBakeTemp;
     isReady = false;
@@ -25,7 +25,7 @@ class Cookie{
   }
   
   void bake(int aBakeTemp, int aBakeTime){
-    System.out.println(number + " cookies backed at " + aBakeTemp + " degrees F for " + aBakeTime + " minutes");
+    System.out.println("The cookies were baked at " + aBakeTemp + " degrees F for " + aBakeTime + " minutes");
     isReady=true;
   }
 
